@@ -1,0 +1,25 @@
+{
+  "name": "open-music-api-consumer",
+  "version": "1.0.0",
+  "main": "src/consumer.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "author": "Misyael Yosevian Wiarda",
+  "license": "ISC",
+  "description": "consumer of open music api producer used to export playlist",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "auto-bind": "^5.0.1",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0"
+  }
+}
